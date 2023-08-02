@@ -1,13 +1,12 @@
 # example:
 https://github.com/vercel/next.js/tree/canary/examples/with-redux
 
-## add redux toolkit + react-redux packages to the project
+# add redux toolkit + react-redux packages to the project
 npm install @reduxjs/toolkit react-redux
 
-## add store src/lib/redux/store.js
-import { configureStore } from '@reduxjs/toolkit'
+# add store src/lib/redux/store.js
+import { configureStore } from '@reduxjs/toolkit';
 
 export const store = configureStore({
-  reducer: {},
-})
-
+	reducer: {},
+});
